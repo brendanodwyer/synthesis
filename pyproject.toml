@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "synthesis"
+version = "0.1.0"
+description = ""
+authors = ["Brendan O'Dwyer <brendan.odwyer@outlook.com>"]
+readme = "README.md"
+packages = [{include = "syntheis", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
